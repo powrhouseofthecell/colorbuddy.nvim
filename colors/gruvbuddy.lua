@@ -22,7 +22,7 @@ Color.new("purple", "#638889")
 Color.new("violet", "#8C92AC")
 Color.new("orange", "#de935f")
 Color.new("brown", "#a3685a")
-Color.new("pale_olive", "#CBD2A4")
+Color.new("pale_olive", "#CBD2A4") -- Color for TS types
 
 Color.new("seagreen", "#698b69")
 Color.new("turquoise", "#698b69")
