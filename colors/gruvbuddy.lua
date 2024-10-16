@@ -22,6 +22,7 @@ Color.new("purple", "#638889")
 Color.new("violet", "#8C92AC")
 Color.new("orange", "#de935f")
 Color.new("brown", "#a3685a")
+Color.new("pale_olive", "#CBD2A4")
 
 Color.new("seagreen", "#698b69")
 Color.new("turquoise", "#698b69")
@@ -40,6 +41,7 @@ Group.new("@keyword.faded", g.nontext.fg:light(), nil, s.none)
 Group.new("@property", c.blue)
 Group.new("@variable", c.superwhite, nil)
 Group.new("@variable.builtin", c.purple:light():light(), g.Normal)
+Group.new("@type", c.pale_olive, nil, s.none) -- Apply the new color to the @type group
 
 -- I've always liked lua function calls to be blue. I don't know why.
 Group.new("@function.call.lua", c.blue:dark(), nil, nil)
